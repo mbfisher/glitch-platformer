@@ -1,0 +1,28 @@
+{
+  "name": "stackabuse-platformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "start": "parcel serve index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msanatan/creating-platformers-in-phaser-with-tiled.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msanatan/creating-platformers-in-phaser-with-tiled/issues"
+  },
+  "homepage": "https://github.com/msanatan/creating-platformers-in-phaser-with-tiled#readme",
+  "devDependencies": {
+    "@types/webpack-env": "^1.15.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "phaser": "^3.22.0"
+  }
+}
