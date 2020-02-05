@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="14" height="7" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="21">
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="14" height="7" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="24">
  <editorsettings>
   <export target="level1.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="kenny_simple_platformer" tilewidth="64" tileheight="64" tilecount="98" columns="14">
   <image source="../tilesets/platformPack_tilesheet.png" width="896" height="448"/>
+  <tile id="7">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+  </tile>
  </tileset>
  <objectgroup id="7" name="Blocks">
-  <object id="18" gid="32" x="64" y="192" width="64" height="64"/>
-  <object id="19" gid="32" x="64" y="128" width="64" height="64"/>
-  <object id="20" gid="32" x="0" y="128" width="64" height="64"/>
+  <object id="21" gid="8" x="0" y="128" width="64" height="64"/>
+  <object id="22" gid="8" x="64" y="128" width="64" height="64"/>
+  <object id="23" gid="8" x="64" y="192" width="64" height="64"/>
  </objectgroup>
  <objectgroup id="4" name="Doors">
   <object id="15" gid="94" x="832" y="384" width="64" height="64"/>
@@ -18,7 +43,11 @@
   <object id="16" gid="67" x="0" y="192" width="64" height="64"/>
  </objectgroup>
  <objectgroup id="6" name="Buttons">
-  <object id="17" gid="83" x="832" y="192" width="64" height="64"/>
+  <object id="17" gid="83" x="832" y="192" width="64" height="64">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="2" name="Spikes">
   <object id="3" gid="71" x="0" y="384" width="64" height="64"/>
